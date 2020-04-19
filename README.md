@@ -1,2 +1,2 @@
 # data_science
-data science practice
+Data Science practice projects including IBM Applied Data Science Capstone project
