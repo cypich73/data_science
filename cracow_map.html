@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_6a113b53905b485a9efc1897f432ea32 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6a113b53905b485a9efc1897f432ea32" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_6a113b53905b485a9efc1897f432ea32 = L.map(
+                                  'map_6a113b53905b485a9efc1897f432ea32',
+                                  {center: [50.066006,20.11439],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_e934abaaf0854df599f151fa72168e00 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+        
+    
+            var circle_marker_419ea7b42b6442c68bed73dd40f090ec = L.circleMarker(
+                [50.066583,19.940139000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_093cdb622a874d649db57bdd35163842 = L.popup({maxWidth: '300'});
+
+            
+                var html_16442aab4e374a63b21f105ba31b8cc5 = $('<div id="html_16442aab4e374a63b21f105ba31b8cc5" style="width: 100.0%; height: 100.0%;">Dzielnica I Stare Miasto - Cluster 2</div>')[0];
+                popup_093cdb622a874d649db57bdd35163842.setContent(html_16442aab4e374a63b21f105ba31b8cc5);
+            
+
+            circle_marker_419ea7b42b6442c68bed73dd40f090ec.bindPopup(popup_093cdb622a874d649db57bdd35163842);
+
+            
+        
+    
+            var circle_marker_05e6dd6acee344828e1867410286e7a4 = L.circleMarker(
+                [50.056611,19.953278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_80b1267817db4069b4516ea42aab6827 = L.popup({maxWidth: '300'});
+
+            
+                var html_49097f12b7844859bbc3e7b96fe718e0 = $('<div id="html_49097f12b7844859bbc3e7b96fe718e0" style="width: 100.0%; height: 100.0%;">Dzielnica II Grzegórzki - Cluster 1</div>')[0];
+                popup_80b1267817db4069b4516ea42aab6827.setContent(html_49097f12b7844859bbc3e7b96fe718e0);
+            
+
+            circle_marker_05e6dd6acee344828e1867410286e7a4.bindPopup(popup_80b1267817db4069b4516ea42aab6827);
+
+            
+        
+    
+            var circle_marker_56de5aac114c405f8a57db78cc726c5a = L.circleMarker(
+                [50.083232,19.968844],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_c84c1f114067452c9459cb919c3d72d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_0bc2690191494ae8a2d1aa6cdf0e4fe9 = $('<div id="html_0bc2690191494ae8a2d1aa6cdf0e4fe9" style="width: 100.0%; height: 100.0%;">Dzielnica III Prądnik Czerwony - Cluster 1</div>')[0];
+                popup_c84c1f114067452c9459cb919c3d72d9.setContent(html_0bc2690191494ae8a2d1aa6cdf0e4fe9);
+            
+
+            circle_marker_56de5aac114c405f8a57db78cc726c5a.bindPopup(popup_c84c1f114067452c9459cb919c3d72d9);
+
+            
+        
+    
+            var circle_marker_980975cc0d374abb86b49e71ae795169 = L.circleMarker(
+                [50.099239000000004,19.906304000000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_1bd041d677aa4cb7a115e4de8069cc42 = L.popup({maxWidth: '300'});
+
+            
+                var html_59351d2e0935481dbd5ede2ebe2ddefc = $('<div id="html_59351d2e0935481dbd5ede2ebe2ddefc" style="width: 100.0%; height: 100.0%;">Dzielnica IV Prądnik Biały - Cluster 2</div>')[0];
+                popup_1bd041d677aa4cb7a115e4de8069cc42.setContent(html_59351d2e0935481dbd5ede2ebe2ddefc);
+            
+
+            circle_marker_980975cc0d374abb86b49e71ae795169.bindPopup(popup_1bd041d677aa4cb7a115e4de8069cc42);
+
+            
+        
+    
+            var circle_marker_ddf03e75d66c41f2a6eff9c64658977e = L.circleMarker(
+                [50.016472,19.921083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_59a2f294cf4d43c8b0184c91d50f932d = L.popup({maxWidth: '300'});
+
+            
+                var html_0a1e6f4899ec4734a5541589851c47e4 = $('<div id="html_0a1e6f4899ec4734a5541589851c47e4" style="width: 100.0%; height: 100.0%;">Dzielnica IX Łagiewniki-Borek Fałęcki - Cluster 1</div>')[0];
+                popup_59a2f294cf4d43c8b0184c91d50f932d.setContent(html_0a1e6f4899ec4734a5541589851c47e4);
+            
+
+            circle_marker_ddf03e75d66c41f2a6eff9c64658977e.bindPopup(popup_59a2f294cf4d43c8b0184c91d50f932d);
+
+            
+        
+    
+            var circle_marker_b687d7c6181e4aabb6d5aec8e77f9c39 = L.circleMarker(
+                [50.06667,19.916667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_d70458a61200462784b84ed53b69b9c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_f1f5f2764113472580363ba303f38978 = $('<div id="html_f1f5f2764113472580363ba303f38978" style="width: 100.0%; height: 100.0%;">Dzielnica V Krowodrza - Cluster 1</div>')[0];
+                popup_d70458a61200462784b84ed53b69b9c8.setContent(html_f1f5f2764113472580363ba303f38978);
+            
+
+            circle_marker_b687d7c6181e4aabb6d5aec8e77f9c39.bindPopup(popup_d70458a61200462784b84ed53b69b9c8);
+
+            
+        
+    
+            var circle_marker_51d239361eb04f2998b99a22c58b8684 = L.circleMarker(
+                [50.083333,19.866667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_a6c28b9463f743e690760bbba11a46b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_5b29c9560cd34fc790e7e3343a0b51a1 = $('<div id="html_5b29c9560cd34fc790e7e3343a0b51a1" style="width: 100.0%; height: 100.0%;">Dzielnica VI Bronowice - Cluster 2</div>')[0];
+                popup_a6c28b9463f743e690760bbba11a46b0.setContent(html_5b29c9560cd34fc790e7e3343a0b51a1);
+            
+
+            circle_marker_51d239361eb04f2998b99a22c58b8684.bindPopup(popup_a6c28b9463f743e690760bbba11a46b0);
+
+            
+        
+    
+            var circle_marker_2bcc70042cae4073925e4638375b1648 = L.circleMarker(
+                [50.05825,19.864922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_4a9cc17a93314221a00e805a8cc0d262 = L.popup({maxWidth: '300'});
+
+            
+                var html_b733289a8d8b43eb988f3f9b80d61cb6 = $('<div id="html_b733289a8d8b43eb988f3f9b80d61cb6" style="width: 100.0%; height: 100.0%;">Dzielnica VII Zwierzyniec - Cluster 2</div>')[0];
+                popup_4a9cc17a93314221a00e805a8cc0d262.setContent(html_b733289a8d8b43eb988f3f9b80d61cb6);
+            
+
+            circle_marker_2bcc70042cae4073925e4638375b1648.bindPopup(popup_4a9cc17a93314221a00e805a8cc0d262);
+
+            
+        
+    
+            var circle_marker_7114528e7aed4b99a54a3068d666681a = L.circleMarker(
+                [50.033333,19.883333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_79bf36e724b84f56a737bca00503150b = L.popup({maxWidth: '300'});
+
+            
+                var html_c2abc45111a3499383f8bc70ca7a335b = $('<div id="html_c2abc45111a3499383f8bc70ca7a335b" style="width: 100.0%; height: 100.0%;">Dzielnica VIII Dębniki - Cluster 0</div>')[0];
+                popup_79bf36e724b84f56a737bca00503150b.setContent(html_c2abc45111a3499383f8bc70ca7a335b);
+            
+
+            circle_marker_7114528e7aed4b99a54a3068d666681a.bindPopup(popup_79bf36e724b84f56a737bca00503150b);
+
+            
+        
+    
+            var circle_marker_3e50fb4f1cdc4c7d89017e3b13863926 = L.circleMarker(
+                [49.986379,19.956869],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_0f85be40e9a840099c957c3bef82bec9 = L.popup({maxWidth: '300'});
+
+            
+                var html_53ae7b4616c54848875a55df4d151574 = $('<div id="html_53ae7b4616c54848875a55df4d151574" style="width: 100.0%; height: 100.0%;">Dzielnica X Swoszowice - Cluster 2</div>')[0];
+                popup_0f85be40e9a840099c957c3bef82bec9.setContent(html_53ae7b4616c54848875a55df4d151574);
+            
+
+            circle_marker_3e50fb4f1cdc4c7d89017e3b13863926.bindPopup(popup_0f85be40e9a840099c957c3bef82bec9);
+
+            
+        
+    
+            var circle_marker_39493441745a4500baf04ca377c1bf16 = L.circleMarker(
+                [50.012276,19.964069],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_e6facc9782074573b79e87f338447cc2 = L.popup({maxWidth: '300'});
+
+            
+                var html_8901e20e20a040d886d30fd419e41cdc = $('<div id="html_8901e20e20a040d886d30fd419e41cdc" style="width: 100.0%; height: 100.0%;">Dzielnica XI Podgórze Duchackie - Cluster 0</div>')[0];
+                popup_e6facc9782074573b79e87f338447cc2.setContent(html_8901e20e20a040d886d30fd419e41cdc);
+            
+
+            circle_marker_39493441745a4500baf04ca377c1bf16.bindPopup(popup_e6facc9782074573b79e87f338447cc2);
+
+            
+        
+    
+            var circle_marker_c4609e6270234a359003d4fec304121c = L.circleMarker(
+                [50.016328,20.031162],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_41316ae640c84892b63fddd107162d62 = L.popup({maxWidth: '300'});
+
+            
+                var html_b986f09d26a34ba1890fdf91a7655747 = $('<div id="html_b986f09d26a34ba1890fdf91a7655747" style="width: 100.0%; height: 100.0%;">Dzielnica XII Bieżanów-Prokocim - Cluster 1</div>')[0];
+                popup_41316ae640c84892b63fddd107162d62.setContent(html_b986f09d26a34ba1890fdf91a7655747);
+            
+
+            circle_marker_c4609e6270234a359003d4fec304121c.bindPopup(popup_41316ae640c84892b63fddd107162d62);
+
+            
+        
+    
+            var circle_marker_8f14c0a30c2946e588dbc7c9b64226c7 = L.circleMarker(
+                [50.041667,19.983333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_5532643515754dd299abcb9878c53675 = L.popup({maxWidth: '300'});
+
+            
+                var html_479a9cd0ea4f4c90b9855cc2d8659848 = $('<div id="html_479a9cd0ea4f4c90b9855cc2d8659848" style="width: 100.0%; height: 100.0%;">Dzielnica XIII Podgórze - Cluster 0</div>')[0];
+                popup_5532643515754dd299abcb9878c53675.setContent(html_479a9cd0ea4f4c90b9855cc2d8659848);
+            
+
+            circle_marker_8f14c0a30c2946e588dbc7c9b64226c7.bindPopup(popup_5532643515754dd299abcb9878c53675);
+
+            
+        
+    
+            var circle_marker_5adf12c40c314bf3bea7339369264825 = L.circleMarker(
+                [50.065723,20.00879],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_9b2a7f6ca5224c64a614f5b36a267360 = L.popup({maxWidth: '300'});
+
+            
+                var html_5450ae951c2e488e889ad0c944812f68 = $('<div id="html_5450ae951c2e488e889ad0c944812f68" style="width: 100.0%; height: 100.0%;">Dzielnica XIV Czyżyny - Cluster 0</div>')[0];
+                popup_9b2a7f6ca5224c64a614f5b36a267360.setContent(html_5450ae951c2e488e889ad0c944812f68);
+            
+
+            circle_marker_5adf12c40c314bf3bea7339369264825.bindPopup(popup_9b2a7f6ca5224c64a614f5b36a267360);
+
+            
+        
+    
+            var circle_marker_033a1693761542bb8075b39559824fe0 = L.circleMarker(
+                [50.099575,20.005477],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_8c1a2f7f219c4e4688d3684c5ce00996 = L.popup({maxWidth: '300'});
+
+            
+                var html_d4c80041d9a84dc7931c0732bafafd7e = $('<div id="html_d4c80041d9a84dc7931c0732bafafd7e" style="width: 100.0%; height: 100.0%;">Dzielnica XV Mistrzejowice - Cluster 0</div>')[0];
+                popup_8c1a2f7f219c4e4688d3684c5ce00996.setContent(html_d4c80041d9a84dc7931c0732bafafd7e);
+            
+
+            circle_marker_033a1693761542bb8075b39559824fe0.bindPopup(popup_8c1a2f7f219c4e4688d3684c5ce00996);
+
+            
+        
+    
+            var circle_marker_77f2c4dbc8e74d09b7fa0a2f5c161c83 = L.circleMarker(
+                [50.083333,20.016667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_cde4b7de691a4881af7938c7054616b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_181004db5ba64f07affbef48840bce00 = $('<div id="html_181004db5ba64f07affbef48840bce00" style="width: 100.0%; height: 100.0%;">Dzielnica XVI Bieńczyce - Cluster 0</div>')[0];
+                popup_cde4b7de691a4881af7938c7054616b9.setContent(html_181004db5ba64f07affbef48840bce00);
+            
+
+            circle_marker_77f2c4dbc8e74d09b7fa0a2f5c161c83.bindPopup(popup_cde4b7de691a4881af7938c7054616b9);
+
+            
+        
+    
+            var circle_marker_2ba194aea399465a8f918e8012104475 = L.circleMarker(
+                [50.101943,20.080496],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_4576afa58a824c21a2f96c840fcb731d = L.popup({maxWidth: '300'});
+
+            
+                var html_a25a0b13658a4fa380d904762926a3e9 = $('<div id="html_a25a0b13658a4fa380d904762926a3e9" style="width: 100.0%; height: 100.0%;">Dzielnica XVII Wzgórza Krzesławickie - Cluster 0</div>')[0];
+                popup_4576afa58a824c21a2f96c840fcb731d.setContent(html_a25a0b13658a4fa380d904762926a3e9);
+            
+
+            circle_marker_2ba194aea399465a8f918e8012104475.bindPopup(popup_4576afa58a824c21a2f96c840fcb731d);
+
+            
+        
+    
+            var circle_marker_2efb5d4191cf4b29a3027b846f9ba374 = L.circleMarker(
+                [50.066006,20.11439],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_6a113b53905b485a9efc1897f432ea32);
+            
+    
+            var popup_b80d86a0ca064e34a0b47d19705e0a06 = L.popup({maxWidth: '300'});
+
+            
+                var html_520962a07b9d485fb37bd213b0d9e2c4 = $('<div id="html_520962a07b9d485fb37bd213b0d9e2c4" style="width: 100.0%; height: 100.0%;">Dzielnica XVIII Nowa Huta - Cluster 0</div>')[0];
+                popup_b80d86a0ca064e34a0b47d19705e0a06.setContent(html_520962a07b9d485fb37bd213b0d9e2c4);
+            
+
+            circle_marker_2efb5d4191cf4b29a3027b846f9ba374.bindPopup(popup_b80d86a0ca064e34a0b47d19705e0a06);
+
+            
+        
+</script>
